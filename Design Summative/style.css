@@ -1,0 +1,236 @@
+@font-face{
+  
+ font-family:Greedo;
+ src:url("Roboto/Roboto-Light.ttf");   
+    
+}
+
+@font-face{
+    
+ font-family:Han;
+ src:url("Roboto/Roboto-Black.ttf");
+    
+}
+
+body{
+    
+ background-color:#dfe5e6;
+ margin:0;
+ transition:1s;
+}
+
+.nightmode{
+    
+   background-color: black;
+    margin:0;
+    
+}
+
+.fixed-header{
+    
+    width:1440px;
+    height:90px;
+    margin:auto;
+    position: fixed;
+    background: rgb(255,255,255);
+    color: black;  
+    display:flex;
+    transition:1s;
+    
+}
+
+h1{
+    
+    font-family: Han;
+    font-size:20px;
+    margin-top: 32px;
+    margin-left: 70px;
+    display:inline-block;
+    
+}
+
+button{
+    
+  width:200px;  
+  height:35px;
+  margin-top: 27px;
+display:inline-block;
+    border-radius:20px;
+    outline:0px;
+    border-width: 0px;
+    margin-left: 20px;
+    transition:0.8s;
+    font-family: Han;
+    font-size:16px;
+    background-color: white;
+    color:gray;
+       transition:1s;
+    
+}
+
+button:hover{
+  
+    background: #51c4e0;
+    color: white;
+    
+}
+
+.herp{
+    
+   width:150px;  
+  height:35px;
+  margin-top: 27px;
+display:inline-block;
+    border-radius:20px;
+    outline:0px;
+    border-width: 0px;
+    margin-left: 20px;
+    transition:0.8s;
+    font-family: Han;
+    font-size:16px;
+    background-color: ghostwhite;
+    color:gray;
+    
+}
+
+img{
+    
+ width:50%;
+ margin-left: 20px;
+    border-radius:5px;
+    
+    
+}
+
+.content{
+    
+    width:810px;
+    height:690px;
+    margin-top:110px;
+    margin-left:150px;
+    position: fixed;
+    background: rgb(255,255,255);
+    color: black;  
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius:10px;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+     transition:1s;
+    
+}
+.brief{
+    
+    width:250px;
+    height:350px;
+    margin-top:110px;
+    margin-left:1015px;
+    position: fixed;
+    background: rgb(255,255,255);
+    color: black;   
+    border-radius:10px;
+    padding-right: 20px;
+    padding-left:20px;
+    transition:1s;
+    
+}
+
+.briefy{
+    
+    width:250px;
+    height:330px;
+    margin-top:110px;
+    margin-left:1015px;
+    position: fixed;
+    background: rgb(255,255,255);
+    color: black;   
+    border-radius:10px;
+    padding-right: 20px;
+    padding-left:20px;
+    transition:1s;
+}
+
+.briefstuff{
+    
+   font-family: Han;
+    font-size:20px;
+    margin-top: 32px;
+    margin-left: 20px;
+    display:block;
+     
+}
+
+.derp{
+    
+    font-family: Han;
+    font-size:20px;
+    margin-top: 32px;
+    margin-left: 20px;
+    display:block;
+     transition:1s;
+    
+}
+
+h3{
+    
+ font-family: Greedo;
+    font-size:15px;
+    display:inline-block;
+    margin-bottom: 0px;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 1s;
+       
+    
+}
+
+p{
+    
+    font-family: Greedo;
+    font-size:15px;
+    margin-top: 10px;
+    display:inline-block;
+    margin-right: 20px;
+    margin-left:20px;
+    line-height: 2;
+    margin-bottom: 20px;
+     transition:1s;
+}
+
+ol{
+    
+ font-size: 20px;
+font-family: Han;
+    margin-top: 32px;
+    margin-right: 20px;
+    margin-left: 0px;
+    
+}
+
+li{
+    
+    
+margin-left: 0px;  
+margin-top: 5px;
+    font-family: Greedo;
+    font-size:15px;
+    margin-right: 0px;
+    transition:1s;
+}
+
+a{
+color:black;
+text-decoration-color: #313333;
+    
+}
+
+a:hover{text-decoration: none};
+
+.hanging{
+text-indent: -60px;
+margin-left: 80px;
+line-height: 3.1;
+}
+
